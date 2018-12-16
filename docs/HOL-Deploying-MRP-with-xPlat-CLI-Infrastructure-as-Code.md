@@ -1,3 +1,8 @@
+# Please visit [http://aka.ms/pumrplabs](http://aka.ms/pumrplabs)
+
+We are now updating only the documentation here : [http://aka.ms/pumrplabs](http://aka.ms/pumrplabs)
+====================================================================================
+
 # Deploying MRP with xPlat CLI Infrastructure as Code #
 
 The Azure Cross-Platform Command-Line Interface (xplat-cli) provides a set of open source, cross-platform commands for working with the Azure Platform. The xplat-cli provides much of the same functionality found in the Azure Management Portal, such as the ability to manage websites, virtual machines, mobile services, SQL Database and other services provided by the Azure platform.
@@ -18,12 +23,13 @@ Computers and Credentials
 ## Exercise 1 - Prepare your environment ##
 
 ### Task 1.1 - Download files needed for lab ###
-1. download the following files from <TODO: Source> to Downloads folder on your machine.
-<pre><code>ProvisionAzureLinuxVM.sh from <TODO: Source>
-Install-MRP.sh from <TODO: Soure>
-MongoRecords.js from <TODO: Source>
-ordering-service-0.1.0.jar from <TODO: Source>
-mrp.war from <TODO: Source>
+1. Download the following files from the GitHub repository to Downloads folder on your machine.
+
+        ProvisionAzureLinuxVM.sh
+        Install-MRP.sh
+        MongoRecords.js
+        ordering-service-0.1.0.jar
+        mrp.war
 
 ### Task 1.2 - Create an Azure Storage Account & Cloud Service ###
 An Azure Storage account with a Blob container named “drops” will be used to upload and store files used by the provisioning script.  You will use the Azure Management Portal to create a storage account and Blob container. The Cloud Service will “own”  the provisioned resources that will be created when the provisioning script is run later in this exercise. 
@@ -122,14 +128,6 @@ GOAL To confirm that the VM is running, you should SSH to the VM (this lab assum
 5.	Log into the VM.
 
 ## For more information ##
-Install and Configure the Azure Cross-Platform Command-Line Interface
-[link text](http://azure.microsoft.com/documentation/articles/xplat-cli/)
+[Install and Configure the Azure Cross-Platform Command-Line Interface](http://azure.microsoft.com/documentation/articles/xplat-cli/)
 
-Using the Azure Cross-Platform Command-Line Interface
-[link text](http://azure.microsoft.com/documentation/articles/virtual-machines-command-line-tools/)
-
-Cross-Platform Cloud Automation with JavaScript
-[link text](https://msdn.microsoft.com/magazine/dn890376.aspx)
-
-Quick Start Guide: Building Highly Available Linux Servers in the Cloud on Microsoft Azure in 12 Steps
-[link text](http://blogs.technet.com/b/keithmayer/archive/2014/10/03/quick-start-guide-building-highly-available-linux-servers-in-the-cloud-on-microsoft-azure.aspx)
+[Using the Azure Cross-Platform Command-Line Interface](http://azure.microsoft.com/documentation/articles/virtual-machines-command-line-tools/)
